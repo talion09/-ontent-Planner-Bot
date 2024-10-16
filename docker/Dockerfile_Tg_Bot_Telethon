@@ -1,0 +1,12 @@
+FROM python:3.10
+
+RUN mkdir /harvester_bot
+WORKDIR /harvester_bot
+
+COPY requirements.txt .
+COPY telethon_bot /harvester_bot/telethon_bot
+
+RUN pip install -r requirements.txt
+
+RUN chmod a+x /harvester_bot/telethon_bot/app.sh
+CMD /harvester_bot/telethon_bot/app.sh

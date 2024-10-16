@@ -1,0 +1,1 @@
+uvicorn mail_service.main:app --port 1010 --host 0.0.0.0

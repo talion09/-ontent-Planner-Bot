@@ -1,0 +1,1 @@
+python -m telethon_bot.bot

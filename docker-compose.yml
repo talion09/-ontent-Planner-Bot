@@ -1,0 +1,81 @@
+version: "3.7"
+services:
+  tg_bot_telethon:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile_Tg_Bot_Telethon
+    restart: always
+    container_name: tg_bot_telethon
+    env_file:
+      - telethon_bot/.env-prod
+    depends_on:
+      - api_service
+
+  tg_bot_aiogram:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile_Tg_Bot_Aiogram
+    restart: always
+    container_name: tg_bot_aiogram
+    env_file:
+      - tg_bot/.env-prod
+    depends_on:
+      - api_service
+
+  db_service:
+    image: postgres:15.4
+    container_name: db_service
+    env_file:
+      - api_service/.env-prod
+    restart: always
+    environment:
+      POSTGRES_DB: "harvester_bot"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "admin"
+    volumes:
+      - postgresdata_back:/var/lib/postgresql/data
+
+  api_service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile_Api_Service
+    restart: always
+    container_name: api_service
+    env_file:
+      - api_service/.env-prod
+    depends_on:
+      - db_service
+    volumes:
+      - migrationdata:/harvester_bot/api_service/migrations/versions
+
+  mail_service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile_Mail_Service
+    restart: always
+    container_name: mail_service
+    env_file:
+      - mail_service/.env-prod
+
+  payment_service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile_Payment_Service
+    restart: always
+    container_name: payment_service
+    env_file:
+      - payment_service/.env-prod
+
+  openai_service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile_Openai_Service
+    restart: always
+    container_name: openai_service
+    env_file:
+      - openai_service/.env-prod
+
+
+volumes:
+  postgresdata_back:
+  migrationdata:

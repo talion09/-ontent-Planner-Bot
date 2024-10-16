@@ -1,0 +1,13 @@
+FROM python:3.10
+
+RUN mkdir /harvester_bot
+WORKDIR /harvester_bot
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY payment_service /harvester_bot/payment_service
+
+RUN chmod a+x /harvester_bot/payment_service/app.sh
+
+CMD /harvester_bot/payment_service/app.sh

@@ -1,0 +1,1153 @@
+# Uzbek translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-04-13 18:17+0500\n"
+"PO-Revision-Date: 2024-04-11 19:09+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uz\n"
+"Language-Team: uz <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: handlers/users/parsing.py:240 handlers/users/parsing.py:278
+msgid ""
+"📡 <b>ПАРСИНГ</b>\n"
+"\n"
+"В этом разделе вы можете просматривать и редактировать каналы - парсинга."
+" Выберите канал, в котором хотите увидеть или подключить парсинг."
+msgstr ""
+
+#: handlers/users/parsing.py:331
+msgid ""
+"💰 ОПЛАТА ПОДПИСКИ\n"
+"\n"
+"Чтобы пользоваться парсингом в канале {} вам нужно перейти на платную "
+"подписку\n"
+"\n"
+"Конечная стоимость: {}₽<a href='{}'>&#8203;</a>"
+msgstr ""
+
+#: handlers/users/parsing.py:335
+msgid "💰 Перейти к оплате"
+msgstr ""
+
+#: handlers/users/content/content_calendar_handler.py:132
+#: handlers/users/content/content_calendar_handler.py:370
+#: handlers/users/content/content_calendar_handler.py:421
+#: handlers/users/content/content_calendar_handler.py:613
+#: handlers/users/content/content_calendar_handler.py:678
+#: handlers/users/content/content_calendar_handler.py:739
+#: handlers/users/content/content_calendar_handler.py:795
+#: handlers/users/content/content_plan.py:356
+#: handlers/users/content/content_plan.py:527
+#: handlers/users/content/content_plan.py:845
+#: handlers/users/content/content_plan.py:861
+#: handlers/users/content/content_plan.py:948
+#: handlers/users/content/content_plan.py:1500
+#: handlers/users/content/content_plan.py:1566
+#: handlers/users/content/content_plan.py:1716
+#: handlers/users/create/calendar_handler.py:80
+#: handlers/users/create/calendar_handler.py:191
+#: handlers/users/create/calendar_handler.py:262
+#: handlers/users/create/calendar_handler.py:536
+#: handlers/users/create/calendar_handler.py:724
+#: handlers/users/create/calendar_handler.py:786
+#: handlers/users/create/calendar_handler.py:845
+#: handlers/users/create/calendar_handler.py:899
+#: handlers/users/create/calendar_handler.py:1395
+#: handlers/users/create/create_post.py:159
+#: handlers/users/create/create_post.py:275
+#: handlers/users/create/create_post.py:337
+#: handlers/users/create/create_post.py:419
+#: handlers/users/create/functions.py:524
+#: handlers/users/create/functions.py:789
+#: handlers/users/create/setting_media.py:115
+#: handlers/users/create/setting_media.py:396
+#: handlers/users/create/setting_media.py:566 handlers/users/parsing.py:336
+#: handlers/users/parsing.py:373 handlers/users/parsing.py:414
+#: handlers/users/parsing.py:439 handlers/users/parsing.py:495
+#: handlers/users/parsing.py:945 handlers/users/parsing.py:1020
+#: handlers/users/settings.py:301 handlers/users/settings.py:392
+#: handlers/users/settings.py:470 handlers/users/settings.py:631
+#: handlers/users/settings.py:703 handlers/users/settings.py:722
+#: handlers/users/settings.py:767 handlers/users/settings.py:789
+#: handlers/users/settings.py:815 handlers/users/settings.py:906
+#: handlers/users/settings.py:955 handlers/users/settings.py:977
+#: handlers/users/settings.py:1064 handlers/users/settings.py:1130
+#: handlers/users/settings.py:1164 handlers/users/settings.py:1195
+#: handlers/users/settings.py:1247 handlers/users/settings.py:1273
+msgid "⬅️ Назад"
+msgstr "⬅️ Orqaga"
+
+#: handlers/users/parsing.py:355
+msgid ""
+"📡 <b>ПАРСИНГ</b>\n"
+"\n"
+"В канале {} парсеров ({} шт.). Чтобы посмотреть или удалить парсеры "
+"воспользуйтесь кнопками ниже."
+msgstr ""
+
+#: handlers/users/parsing.py:372
+msgid "➕ Добавить парсер канал"
+msgstr ""
+
+#: handlers/users/parsing.py:410
+msgid ""
+"📡 ПАРСЕР КАНАЛ\n"
+"\n"
+"Спарсшеные посты с канала {}"
+msgstr ""
+
+#: handlers/users/parsing.py:412
+msgid "Посмотреть посты"
+msgstr ""
+
+#: handlers/users/parsing.py:413
+msgid "❌ Удалить"
+msgstr ""
+
+#: handlers/users/parsing.py:437
+msgid "Вы уверены, что хотите удалить выбранный парсер-канал?"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:860
+#: handlers/users/content/content_plan.py:947 handlers/users/parsing.py:438
+#: handlers/users/settings.py:1063
+msgid "Да, удалить"
+msgstr ""
+
+#: handlers/users/parsing.py:474
+msgid "✅ Вы успешно удалили парсер-канал"
+msgstr ""
+
+#: handlers/users/parsing.py:497
+msgid ""
+"<b>ПРЕВЫШЕНЫ ЛИМИТЫ</b>\n"
+"\n"
+"Кол-во парсер каналов: 3 шт.\n"
+"\n"
+"Удалите добавленные вами парсер каналы, чтобы добавить новый"
+msgstr ""
+
+#: handlers/users/parsing.py:508
+msgid ""
+"Чтобы добавить парсер-канал, отправьте ссылку на него в формате:\n"
+"\n"
+"<b>https://t.me/link.com \n"
+"https://t.me/channelname \n"
+"@channelname</b>\n"
+"\n"
+"Или перешлите любое сообщение из канала в диалог с ботом."
+msgstr ""
+
+#: handlers/users/parsing.py:527
+msgid "Создать пост"
+msgstr ""
+
+#: handlers/users/parsing.py:528
+msgid "Контент-план"
+msgstr ""
+
+#: handlers/users/parsing.py:529
+msgid "Парсинг"
+msgstr ""
+
+#: handlers/users/parsing.py:530
+msgid "Настройки"
+msgstr ""
+
+#: handlers/users/parsing.py:570 handlers/users/parsing.py:653
+msgid ""
+"Введите ссылку на приглашение, так как это приватный канал\n"
+"Пример: https://t.me/+4MqtJfmbfzowNzcy"
+msgstr ""
+
+#: handlers/users/parsing.py:574 handlers/users/parsing.py:634
+#: handlers/users/parsing.py:657 handlers/users/parsing.py:717
+msgid "Вы отправили неверную ссылку"
+msgstr ""
+
+#: handlers/users/parsing.py:740
+msgid ""
+"✅ Вы успешно подключили парсер-канал <a href='https://t.me/{}'>{}</a> к "
+"HarvestlyBot"
+msgstr ""
+
+#: handlers/users/parsing.py:742
+msgid ""
+"✅ Заявка на вступление была принята <a href='https://t.me/{}'>{}</a>.\n"
+"Как только вашу заявку одобрят, вам придет сообщение😀"
+msgstr ""
+
+#: handlers/users/parsing.py:781
+msgid "У Вас уже подключен парсер-канал {} к HarvestlyBot"
+msgstr ""
+
+#: handlers/users/parsing.py:789
+msgid "Такого канала не существует"
+msgstr ""
+
+#: handlers/users/parsing.py:943 handlers/users/parsing.py:1018
+msgid "Посмотреть новые посты ({} шт.)"
+msgstr ""
+
+#: handlers/users/parsing.py:944 handlers/users/parsing.py:1019
+msgid "Посмотреть посты по дате"
+msgstr ""
+
+#: handlers/users/parsing.py:1040
+msgid "Пожалуйста подождите"
+msgstr ""
+
+#: handlers/users/parsing.py:1209
+msgid "Выберите дату начала:"
+msgstr ""
+
+#: handlers/users/parsing.py:1228
+msgid ""
+"Выберите конечную дату:\n"
+"\n"
+"Дата начала: {}"
+msgstr ""
+
+#: handlers/users/parsing.py:1247
+msgid ""
+"Парсинг начался\n"
+"Пожалуйста подождите\n"
+"\n"
+"Начальная дата: {start_date.date()}\n"
+"Конечная дата: {end_date.date()}"
+msgstr ""
+
+#: handlers/users/parsing.py:1299 handlers/users/parsing.py:1394
+msgid "Остановить парсинг"
+msgstr ""
+
+#: handlers/users/parsing.py:1308 handlers/users/parsing.py:1404
+msgid "Нажмите на кнопку, чтобы остановить парсинг"
+msgstr ""
+
+#: handlers/users/parsing.py:1359
+msgid "Новых постов нету"
+msgstr ""
+
+#: handlers/users/parsing.py:1429
+msgid "Парсинг остановлен"
+msgstr ""
+
+#: handlers/users/settings.py:52 handlers/users/settings.py:103
+msgid ""
+"⚙️ <b>НАСТРОЙКИ</b>\n"
+"\n"
+"В этом разделе вы можете настроить работу с ботом, с отдельным каналом, а"
+" также добавить новый канал B HarvestlyBot"
+msgstr ""
+
+#: handlers/users/create/create_post.py:74 handlers/users/settings.py:54
+#: handlers/users/settings.py:106 handlers/users/settings.py:702
+#: handlers/users/settings.py:766
+msgid "💰 Оплата подписки"
+msgstr ""
+
+#: handlers/users/create/functions.py:72 handlers/users/settings.py:73
+#: handlers/users/settings.py:124
+msgid "➕ Добавить новый канал"
+msgstr "➕ Yangi kanal qo'shing"
+
+#: handlers/users/settings.py:82 handlers/users/settings.py:133
+msgid "Часовой пояс: GMT + {} {}"
+msgstr ""
+
+#: handlers/users/settings.py:83 handlers/users/settings.py:134
+#: handlers/users/settings.py:701 handlers/users/settings.py:765
+msgid "⛓ Личный аккаунт GPT"
+msgstr ""
+
+#: handlers/users/settings.py:260 handlers/users/settings.py:350
+msgid ""
+"{} \n"
+"Подписчиков: {}\n"
+"\n"
+"Имеют доступ:\n"
+"{}\n"
+"\n"
+"Чтобы дать пользователю возможность работать с каналом, добавьте его в "
+"канал {} в качестве администратора, дав права на: \n"
+"\n"
+"✅ Отправку сообщений \n"
+"✅ Удаление сообщений \n"
+"✅ Редактирование сообщений \n"
+"\n"
+"Затем нажмите «Обновить данные» "
+msgstr ""
+
+#: handlers/users/settings.py:294 handlers/users/settings.py:385
+msgid "🔄 Обновить данные"
+msgstr ""
+
+#: handlers/users/settings.py:295 handlers/users/settings.py:386
+msgid "Промпты для Chat GPT"
+msgstr ""
+
+#: handlers/users/settings.py:296 handlers/users/settings.py:387
+msgid "Автоподпись: нет"
+msgstr ""
+
+#: handlers/users/settings.py:297 handlers/users/settings.py:388
+msgid "✅ Автоподпись: есть"
+msgstr ""
+
+#: handlers/users/settings.py:298 handlers/users/settings.py:389
+msgid "Отправка спаршенных постов в чат: нет"
+msgstr ""
+
+#: handlers/users/settings.py:299 handlers/users/settings.py:390
+msgid "✅ Отправка спаршенных постов в чат: да"
+msgstr ""
+
+#: handlers/users/settings.py:300 handlers/users/settings.py:391
+msgid "🗑 Отвязать от HarvestlyBot"
+msgstr ""
+
+#: handlers/users/settings.py:425
+msgid "Ваш часовой пояс: GMT + {} {}"
+msgstr ""
+
+#: handlers/users/settings.py:447
+msgid ""
+"Вы изменили часовой пояс на \n"
+"GMT + {} {}"
+msgstr ""
+
+#: handlers/users/create/create_post.py:415 handlers/users/settings.py:466
+msgid ""
+"✍️ АВТОПОДПИСЬ\n"
+"\n"
+"Вы можете настроить подпись, которая будет автоматически добавляться ко "
+"всем вашим публикациям.\n"
+"\n"
+"Отправьте текст для автоподписи."
+msgstr ""
+
+#: handlers/users/create/create_post.py:468 handlers/users/settings.py:526
+msgid "Вы успешно добавили автоподпись."
+msgstr ""
+
+#: handlers/users/settings.py:629
+msgid ""
+"Вы уверены, что хотите отвязать канал от HarvestlyBot?\n"
+"\n"
+"Вы в любой момент можете заново привязать канал, сохранив все настройки и"
+" контент-план."
+msgstr ""
+
+#: handlers/users/settings.py:632 handlers/users/settings.py:1274
+msgid "Да, отвязать"
+msgstr ""
+
+#: handlers/users/settings.py:697 handlers/users/settings.py:761
+msgid ""
+"Чтобы пользоваться промптаим в Harvestly вы должны привязать свой аккаунт"
+" Chat GPT или Оплатить подписку<a href='{}'>&#8203;</a>"
+msgstr ""
+
+#: handlers/users/settings.py:718 handlers/users/settings.py:785
+msgid ""
+"<b>⛓ GPT ПРОМПТЫ</b>\n"
+"\n"
+"В этом разделе вы можете настроить работу Chat GPT, добавить и удалить "
+"промпты"
+msgstr ""
+
+#: handlers/users/create/functions.py:522 handlers/users/settings.py:720
+#: handlers/users/settings.py:787
+msgid "Добавить"
+msgstr "Qo'shish"
+
+#: handlers/users/content/content_plan.py:785
+#: handlers/users/content/content_plan.py:820 handlers/users/settings.py:721
+#: handlers/users/settings.py:788
+msgid "Изменить"
+msgstr ""
+
+#: handlers/users/settings.py:810
+msgid ""
+"<b>⛓ CHAT GPT</b>\n"
+"\n"
+"Отправьте боту промпт в следующем формате:\n"
+"\n"
+"Название - <b>Текст промпта</b>\n"
+"\n"
+"Пример:\n"
+"\n"
+"Изменение текста - <b>Преобразуйте следующий текст, чтобы сделать его "
+"кратким и информативным, сохраняя при этом его основной смысл</b>"
+msgstr ""
+
+#: handlers/users/create/create_post.py:518 handlers/users/settings.py:866
+msgid "✅ Вы успешно добавили промпт {} в HarvestlyBot."
+msgstr ""
+
+#: handlers/users/settings.py:916
+msgid "Вы еще не добавили промпты для Сhat GPT"
+msgstr ""
+
+#: handlers/users/settings.py:953
+msgid "Изменить текст"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:786 handlers/users/settings.py:954
+msgid "Удалить"
+msgstr ""
+
+#: handlers/users/settings.py:971
+msgid ""
+"<b>⛓ ИЗМЕНИТЬ ТЕКСТ ПРОМПТА</b>\n"
+"\n"
+"Отправьте боту промпт в следующем формате:\n"
+"\n"
+"Название - Текст промпта\n"
+"\n"
+"Пример:\n"
+"\n"
+"Изменение текста - <b>Преобразуйте следующий текст, чтобы сделать его "
+"кратким и информативным, сохраняя при этом его основной смысл</b>"
+msgstr ""
+
+#: handlers/users/settings.py:1028
+msgid "✅ Вы успешно изменили промпт {} в HarvestlyBot."
+msgstr ""
+
+#: handlers/users/settings.py:1062
+msgid "Вы уверены, что хотите удалить промпт '{}'?"
+msgstr ""
+
+#: handlers/users/settings.py:1110
+msgid "Вы успешно удалили промпт {}"
+msgstr ""
+
+#: handlers/users/settings.py:1124 handlers/users/settings.py:1158
+msgid ""
+"<b>⛓ GPT ПРОМПТЫ</b>\n"
+"\n"
+"Подключение вашего собственного GPT\n"
+"\n"
+"Вы можете подключить ваш собственный аккаунт GPT. Просто отправьте нам "
+"API токен вашего бота, и мы подключим его в нашу систему.\n"
+"\n"
+"Благодаря этому @{} будет работать быстрее и без ограничений на кол-во "
+"запросов."
+msgstr ""
+
+#: handlers/users/settings.py:1128 handlers/users/settings.py:1162
+msgid "🗑 Отвязать аккаунт"
+msgstr ""
+
+#: handlers/users/settings.py:1129 handlers/users/settings.py:1163
+msgid "⛓ Привязать аккаунт GPT"
+msgstr ""
+
+#: handlers/users/settings.py:1191
+msgid ""
+"<b>Чтобы подключить Chat GPT отправьте ваш секретный API Token боту</b>\n"
+"\n"
+"Пример:\n"
+"\n"
+"<b>sk-\n"
+"scsRpZt3T6xk72amwAATSBIDKFJOUECOMDNQEXLPBs29ROf</b>"
+msgstr ""
+
+#: handlers/users/settings.py:1232
+msgid "✅ Вы успешно привязали аккаунт Chat GPT 4 в HarvestlyBot."
+msgstr ""
+
+#: handlers/users/settings.py:1243
+msgid ""
+"<b>Введенный API Token не действителен</b>\n"
+"\n"
+"Пример:\n"
+"\n"
+"<b>sk-\n"
+"scsRpZt3T6xk72amwAATSBIDKFJOUECOMDNQEXLPBs29ROf</b>"
+msgstr ""
+
+#: handlers/users/settings.py:1271
+msgid ""
+"Вы уверены, что хотите отвязать свой аккаунт Chat GPT 4 от HarvestlyBot?\n"
+"\n"
+"Вы в любой момент можете заново привязать свой аккаунт, сохранив все "
+"настройки и контент-план."
+msgstr ""
+
+#: handlers/users/settings.py:1295
+msgid "✅ Вы успешно отвязали свой аккаунт Chat GPT 4 от HarvestlyBot"
+msgstr ""
+
+#: handlers/users/start.py:30
+msgid ""
+"<b>Harvestly</b> - это простой и удобный бот для отложенного постинга, "
+"поддерживающий работу парсингом и ChatGPT\n"
+"\n"
+" <b>Бот позволяет:</b>\n"
+"\n"
+" 🕕 Планировать выход публикаций в ваших каналах\n"
+"\n"
+" 🗑 Автоматически удалять их по расписанию \n"
+"\n"
+" 🧑‍🎨 Создавать и настраивать посты любого формата \n"
+"\n"
+" 📡 Пользоваться парсингом из других каналов в Telegram \n"
+"\n"
+" ⛓ Использовать и добаялять промпты ChatGPT для редактирвоания постов \n"
+"\n"
+" Новости сервиса - {}"
+msgstr ""
+"<b>Harvestly</b> - bu kechiktirilgan postlash uchun oddiy va qulay bot, "
+"parsing va ChatGPT bilan ishlashni qo'llab-quvvatlaydi\n"
+"\n"
+"<b>Bot imkoniyatlari:</b>\n"
+"\n"
+"🕕 O'z kanallaringizda nashrlar chiqishini rejalashtirish\n"
+"\n"
+"🗑 Ularni jadval bo'yicha avtomatik o'chirish \n"
+"\n"
+"🧑‍🎨 Har qanday formatdagi postlarni yaratish va sozlash \n"
+"\n"
+"📡 Telegramdagi boshqa kanallardan parsing foydalanish \n"
+"\n"
+"⛓ Postlarni tahrirlash uchun ChatGPT promptlaridan foydalanish va "
+"qo'shish \n"
+"\n"
+"Xizmat yangiliklari - {}"
+
+#: handlers/users/content/content_calendar_handler.py:80
+msgid ""
+"⏳ ИЗМЕНИТЬ ДАТУ И ВРЕМЯ\n"
+"\n"
+"Выберете время в меню"
+msgstr ""
+
+#: handlers/users/content/content_calendar_handler.py:133
+#: handlers/users/content/content_calendar_handler.py:371
+#: handlers/users/content/content_calendar_handler.py:422
+#: handlers/users/content/content_calendar_handler.py:614
+#: handlers/users/content/content_calendar_handler.py:679
+#: handlers/users/content/content_calendar_handler.py:740
+#: handlers/users/content/content_plan.py:357
+#: handlers/users/create/calendar_handler.py:202
+#: handlers/users/create/calendar_handler.py:266
+#: handlers/users/create/calendar_handler.py:496
+#: handlers/users/create/calendar_handler.py:545
+#: handlers/users/create/calendar_handler.py:723
+#: handlers/users/create/calendar_handler.py:787
+#: handlers/users/create/calendar_handler.py:844
+#: handlers/users/create/create_post.py:160
+msgid "➡️ Далее"
+msgstr "➡️ Keyingi"
+
+#: handlers/users/content/content_calendar_handler.py:144
+#: handlers/users/content/content_calendar_handler.py:388
+#: handlers/users/content/content_calendar_handler.py:439
+#: handlers/users/content/content_calendar_handler.py:632
+#: handlers/users/content/content_calendar_handler.py:693
+#: handlers/users/content/content_calendar_handler.py:755
+#: handlers/users/create/calendar_handler.py:210
+#: handlers/users/create/calendar_handler.py:271
+#: handlers/users/create/calendar_handler.py:503
+#: handlers/users/create/calendar_handler.py:552
+#: handlers/users/create/calendar_handler.py:740
+#: handlers/users/create/calendar_handler.py:801
+#: handlers/users/create/calendar_handler.py:860
+msgid ""
+"⏳ ОТЛОЖИТЬ\n"
+"\n"
+"Выберете время в меню"
+msgstr ""
+"⏳ Kechiktirish\n"
+"\n"
+"Menyudan vaqtni tanlang"
+
+#: handlers/users/content/content_calendar_handler.py:794
+#: handlers/users/create/calendar_handler.py:898
+msgid "🕘 Да, отложить"
+msgstr "🕘 Ha, keyinga qoldirish"
+
+#: handlers/users/content/content_calendar_handler.py:796
+#: handlers/users/create/calendar_handler.py:900
+#: handlers/users/create/calendar_handler.py:1028
+msgid "Запланировать пост в канал {} на {} ?"
+msgstr ""
+
+#: handlers/users/content/content_calendar_handler.py:803
+#: handlers/users/content/content_calendar_handler.py:921
+#: handlers/users/create/calendar_handler.py:908
+#: handlers/users/create/calendar_handler.py:1033
+msgid "Публикацию запланировать не получилось"
+msgstr ""
+
+#: handlers/users/content/content_calendar_handler.py:863
+#: handlers/users/create/calendar_handler.py:968
+#: handlers/users/create/calendar_handler.py:1454
+msgid ""
+"Превышены лимиты\n"
+"\n"
+"Вы можете отправлять {} в день"
+msgstr ""
+
+#: handlers/users/content/content_calendar_handler.py:918
+#: handlers/users/create/calendar_handler.py:1030
+msgid "Пост запланирован в канал {} на {}"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:114
+#: handlers/users/content/content_plan.py:166
+msgid ""
+"🗓 <b>КОНТЕНТ-ПЛАН</b>\n"
+"\n"
+"В этом разделе вы можете просматривать и редактировать запланированные "
+"публикации. Выберите канал, в котором хотите увидеть контент-план."
+msgstr ""
+
+#: handlers/users/content/content_plan.py:135
+#: handlers/users/content/content_plan.py:188
+#: handlers/users/create/create_post.py:535
+#: handlers/users/create/functions.py:56
+msgid ""
+"<b>У вас пока нет подключенных каналов.</b>\n"
+"\n"
+"Чтобы подключить первый канал, сделайте @{} его администратором, дав "
+"следующие права:\n"
+"\n"
+"✅ Отправка сообщений\n"
+"✅ Удаление сообщений\n"
+"✅ Редактирование сообщений\n"
+"\n"
+"А затем перешлите любое сообщений канала в диалог с ботом либо отправьте "
+"публичную ссылку на ваш канал."
+msgstr ""
+"<b>Сизда ҳозирча уланган каналлар йўқ.</b>\n"
+"\n"
+"@{} ни администратор сифатида улаш учун қуйидаги ҳуқуқларни беринг:\n"
+"\n"
+"✅ Хабарларни юбориш\n"
+"✅ Хабарларни ўчириш\n"
+"✅ Хабарларни таҳрирлаш\n"
+"\n"
+"Сўнгра, каналдан исталган хабарни бот билан суҳбатга йўлланг ёки "
+"каналингизнинг омма линкини юборинг."
+
+#: handlers/users/content/content_plan.py:355
+#: handlers/users/create/create_post.py:158
+msgid "🆓 Хочу пользоваться бесплатно"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:378
+#: handlers/users/create/create_post.py:181
+msgid ""
+"💰 ОПЛАТА ПОДПИСКИ\n"
+"\n"
+"Чтобы пользоваться Harvestly, необходима платная подписка. Чтобы "
+"подключить подписку для ваших каналов, нажмите «Далее».\n"
+"\n"
+"Или попробуйте бесплатную версию:"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:524
+msgid ""
+"🗓 <b>КОНТЕНТ-ПЛАН</b>\n"
+"\n"
+"На <b>{}</b> в канале {} запланированы посты ({} шт.). Чтобы посмотреть "
+"другие даты воспользуйтесь кнопками ниже"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:784
+msgid "Опубликован"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:787
+#: handlers/users/content/content_plan.py:822
+#: handlers/users/create/calendar_handler.py:77
+msgid "Таймер автоудаления: {}"
+msgstr "Avtomatik o'chirish taymeri: {}"
+
+#: handlers/users/content/content_plan.py:788
+#: handlers/users/content/content_plan.py:808
+#: handlers/users/content/content_plan.py:824
+msgid "Дублировать"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:804
+msgid ""
+"Статус: <b>{}</b>\n"
+"Ссылка: {}\n"
+"Дата: <b>{}</b>\n"
+"Автор: {}"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:806
+msgid "Удален"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:807
+#: handlers/users/content/content_plan.py:821
+msgid "❌ Удалить из контент плана"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:815
+msgid ""
+"Статус: <b>{}</b>\n"
+"Дата: <b>{}</b>\n"
+"Автор: {}"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:818
+msgid ""
+"Статус: <b>Ожидает публикации</b>\n"
+"Дата: <b>{}</b>\n"
+"Автор: {}"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:819
+#: handlers/users/create/calendar_handler.py:79
+msgid "🚀 Опубликовать"
+msgstr "🚀 Nashr qilish"
+
+#: handlers/users/content/content_plan.py:823
+msgid "🕔 Изменить дату и время"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:858
+msgid "Вы уверены, что хотите удалить выбранный пост?"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:908
+msgid "Пост успешно удален из канала"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:916
+msgid "Пост уже удален из канала"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:919
+#: handlers/users/content/content_plan.py:976
+msgid "Пост успешно удален из контент плана"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:945
+msgid "Вы уверены, что хотите удалить выбранный пост из Контент-плана?"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:1490
+#: handlers/users/create/create_post.py:265
+msgid "❌ Описание для данного поста не поддерживается"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:1499
+#: handlers/users/create/create_post.py:273
+msgid "Отправьте новый текст для поста"
+msgstr "Пост учун янги матнни юборинг"
+
+#: handlers/users/content/content_plan.py:1551
+msgid "❌ Url кнопки для данного поста не поддерживаются"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:1560
+#: handlers/users/create/create_post.py:329
+msgid ""
+"⛓ <b>URL-КНОПКИ</b>\n"
+"\n"
+"Отправьте боту список URL-кнопок в следующем формате:\n"
+"\n"
+"<code>Название кнопки 1 - <b>http://link.com</b></code>\n"
+"<code>Название кнопки 2 - <b>http://link.com</b></code>\n"
+"\n"
+"Используйте разделитель '|', чтобы добавить до 8 кнопок в один ряд "
+"(допустимо 15 рядов):\n"
+"\n"
+"<code>Название кнопки 1 - <b>http://link.com</b> | Название кнопки 2 - "
+"<b>http://link.com</b></code>"
+msgstr ""
+"⛓ <b>URL-ТУГМАЛАР</b>\n"
+"\n"
+"Қуйидаги форматда URL-тугмалар рўйхатини ботга юборинг:\n"
+"\n"
+"<code>Тугма номи 1 - <b>http://link.com</b></code>\n"
+"<code>Тугма номи 2 - <b>http://link.com</b></code>\n"
+"\n"
+"Бир қаторга 8 тагача тугма қўшиш учун '|' ажратгичидан фойдаланинг (15 "
+"қаторгача рухсат этилади):\n"
+"\n"
+"<code>Тугма номи 1 - <b>http://link.com</b> | Тугма номи 2 - "
+"<b>http://link.com</b></code>"
+
+#: handlers/users/content/content_plan.py:1617
+#: handlers/users/create/create_post.py:386
+msgid "❌ Автоподпись для данного поста не поддерживается"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:1664
+#: handlers/users/create/functions.py:462
+msgid ""
+"<b>⛓ CHAT GPT</b>\n"
+"\n"
+"Выберите промпт."
+msgstr ""
+"<b>⛓ CHAT GPT</b>\n"
+"\n"
+"Prompt-ni tanlang."
+
+#: handlers/users/content/content_plan.py:1680
+#: handlers/users/create/functions.py:478
+msgid "❌ Chat GPT для данного поста не поддерживается"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:1809
+#: handlers/users/create/functions.py:735
+msgid "Превышен лимит запросов Сhat GPT в минуту, попробуйте немного позже"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:1825
+#: handlers/users/create/functions.py:751
+msgid "Привяжите аккаунт Chat GPT в настройках канала, либо оплатите подписку"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:1848
+#: handlers/users/create/functions.py:777
+msgid "Преобразование текста не выполнилось"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:2090
+msgid "✅ Пост изменен"
+msgstr ""
+
+#: handlers/users/content/content_plan.py:2116
+#: handlers/users/create/calendar_handler.py:1297
+msgid ""
+"🗑 <b>ТАЙМЕР УДАЛЕНИЯ</b>\n"
+"\n"
+"Вы можете установить через какое время после выхода поста, он будет "
+"удалён.\n"
+"\n"
+"Отправьте боту время, через которое нужно удалить пост либо выберите один"
+" из предложенных вариантов."
+msgstr ""
+"🗑 <b>O'CHIRISH TAYMERI</b>\n"
+"\n"
+"Siz post chiqqanidan keyin qancha vaqt o'tgach u o'chirilishini "
+"o'rnatishingiz mumkin.\n"
+"\n"
+"Botga postni o'chirish uchun kerak bo'lgan vaqtni yuboring yoki bittasini"
+" tanlang."
+
+#: handlers/users/content/content_plan.py:2158
+#: handlers/users/create/calendar_handler.py:1335
+msgid "Выбрать"
+msgstr ""
+
+#: handlers/users/create/calendar_handler.py:56
+msgid ""
+"💼 <b>НАСТРОЙКИ ОТПРАВКИ</b>\n"
+"\n"
+"Пост готов к публикации в канале {}\n"
+"\n"
+"Настройте его перед отправкой."
+msgstr ""
+"💼 <b>YUBORISH SOZLAMALARI</b>\n"
+"\n"
+"Post kanalda nashr etishga tayyor {}\n"
+"\n"
+"Yuborishdan oldin uni sozlang."
+
+#: handlers/users/create/calendar_handler.py:78
+msgid "🕔 Отложить"
+msgstr "🕔 Kechiktirish"
+
+#: handlers/users/create/calendar_handler.py:126
+#: handlers/users/create/calendar_handler.py:137
+msgid "🗓 Показать календарь"
+msgstr "🗓 Taqvimni ko'rsatish"
+
+#: handlers/users/create/calendar_handler.py:129
+#: handlers/users/create/calendar_handler.py:138
+msgid "Выберите час ↘️"
+msgstr "Soatni tanlang ↘️"
+
+#: handlers/users/create/calendar_handler.py:131
+msgid "Часы: {} ↘️"
+msgstr ""
+
+#: handlers/users/create/calendar_handler.py:133
+#: handlers/users/create/calendar_handler.py:139
+msgid "Выберите минуту ↘️"
+msgstr "Daqiqani tanlang ↘️"
+
+#: handlers/users/create/calendar_handler.py:1388
+msgid "Вы уверены, что хотите опубликовать пост в канале {} ?"
+msgstr "{} kanalda post joylashtirmoqchi ekanligingizga ishonchingiz komilmi ?"
+
+#: handlers/users/create/calendar_handler.py:1389
+msgid "🚀 Да, опубликовать"
+msgstr "🚀 Ha, nashr etish"
+
+#: handlers/users/create/calendar_handler.py:1524
+msgid "✅ Пост опубликован на канале {}"
+msgstr ""
+
+#: handlers/users/create/create_post.py:79
+msgid ""
+"Вы можете пользоваться ботом бесплатно, пока ваш канал не достигнет "
+"отметки в {} подписчиков. Чтобы сразу продлить доступ, нажмите на кнопку "
+"ниже."
+msgstr ""
+
+#: handlers/users/create/create_post.py:125
+msgid "❌ Создание поста отменено"
+msgstr ""
+
+#: handlers/users/create/create_post.py:235
+msgid "Отправьте или перешлите боту то, что хотите опубликовать в канале {}"
+msgstr ""
+"{} каналида нашр этишни хоҳлаган нарсангизни ботга юборинг ёки унга "
+"юборинг"
+
+#: handlers/users/create/create_post.py:236
+msgid "⬅️ Выбрать другой канал"
+msgstr "⬅️ Boshqa kanalni tanlang"
+
+#: handlers/users/create/functions.py:28
+msgid "URL-кнопки"
+msgstr "URL-tugmalari"
+
+#: handlers/users/create/functions.py:29
+msgid "Настроить медиа"
+msgstr "Media-ni sozlang"
+
+#: handlers/users/create/functions.py:30
+msgid "Chat GPT"
+msgstr "Chat GPT"
+
+#: handlers/users/create/functions.py:31
+msgid "Автоподпись"
+msgstr "Avtoimzo"
+
+#: handlers/users/create/functions.py:32
+msgid "Отмена"
+msgstr "Bekor qilish"
+
+#: handlers/users/create/functions.py:33
+msgid "Далее"
+msgstr "Keyingi"
+
+#: handlers/users/create/functions.py:65
+msgid ""
+"<b>📝 СОЗДАНИЕ ПОСТА</b>\n"
+"\n"
+"Выберите канал, в котором хотите создать публикацию"
+msgstr ""
+"<b>📝 ПОСТ ЯРАТИШ</b>\n"
+"\n"
+"Публикация қилишни истаган каналингизни танланг"
+
+#: handlers/users/create/functions.py:101
+#: handlers/users/create/functions.py:125
+msgid "Вы не являетесь ни администратором, ни владельцем канала"
+msgstr ""
+
+#: handlers/users/create/functions.py:105
+#: handlers/users/create/functions.py:129
+msgid "Сделайте бота администратором канала"
+msgstr ""
+
+#: handlers/users/create/functions.py:180
+#: handlers/users/create/functions.py:220
+msgid "✅ Канал <a href='https://t.me/{}'>{}</a> успешно привязан к Harvestly"
+msgstr ""
+
+#: handlers/users/create/functions.py:335
+#: handlers/users/create/functions.py:342
+msgid "Изменить описание"
+msgstr "Tavsifni o'zgartirish"
+
+#: handlers/users/create/functions.py:510
+msgid ""
+"⚠️ Чтобы пользоваться промптаим в Harvestly вы должны привязать свой "
+"аккаунт Chat GPT или Оплатить подписку"
+msgstr ""
+
+#: handlers/users/create/functions.py:523
+msgid "Моментальная генерация"
+msgstr "Lahzali avlod"
+
+#: handlers/users/create/functions.py:794
+msgid ""
+"<b>⛓ CHAT GPT</b>\n"
+"\n"
+"Отправьте боту промпт в следующем формате:\n"
+"\n"
+"Пример:\n"
+"\n"
+"<b>Преобразуйте следующий текст, чтобы сделать его кратким и "
+"информативным, сохраняя при этом его основной смысл</b>"
+msgstr ""
+
+#: handlers/users/create/functions.py:801
+msgid ""
+"<b>⛓ CHAT GPT</b>\n"
+"\n"
+"Отправьте боту промпт в следующем формате:\n"
+"\n"
+"Название - Текст промпта\n"
+"\n"
+"Пример:\n"
+"\n"
+"Изменение текста - <b>Преобразуйте следующий текст, чтобы сделать его "
+"кратким и информативным, сохраняя при этом его основной смысл</b>"
+msgstr ""
+
+#: handlers/users/create/setting_media.py:109
+#: handlers/users/create/setting_media.py:392
+#: handlers/users/create/setting_media.py:518
+msgid ""
+"🖼 <b>НАСТРОИТЬ МЕДИА</b>\n"
+"\n"
+"Для переключения между файлами используйте кнопки с цифрами:"
+msgstr ""
+"🖼 <b>MEDIA-NI SOZLANG</b>\n"
+"\n"
+"Fayllar o'rtasida almashish uchun raqamlar tugmalaridan foydalaning:"
+
+#: handlers/users/create/setting_media.py:113
+#: handlers/users/create/setting_media.py:394
+msgid "➕ Добавить медиа"
+msgstr "➕ Media qo'shish"
+
+#: handlers/users/create/setting_media.py:114
+#: handlers/users/create/setting_media.py:395
+#: handlers/users/create/setting_media.py:565
+msgid "💾 Сохранить"
+msgstr "💾 Saqlash"
+
+#: handlers/users/create/setting_media.py:188
+#: handlers/users/create/setting_media.py:471
+#: handlers/users/create/setting_media.py:563
+msgid "Удалить медиа"
+msgstr "Mediani o`chirish"
+
+#: handlers/users/create/setting_media.py:189
+#: handlers/users/create/setting_media.py:472
+#: handlers/users/create/setting_media.py:564
+msgid "Заменить медиа"
+msgstr "Mediani almashtirish"
+
+#: handlers/users/create/setting_media.py:246
+#: handlers/users/create/setting_media.py:258
+msgid "❌ Настройки медиа для данного поста не поддерживается"
+msgstr ""
+
+#: handlers/users/create/setting_media.py:269
+msgid "Чтобы изменить отправьте одно фото"
+msgstr ""
+
+#: handlers/users/create/setting_media.py:274
+#: handlers/users/create/setting_media.py:291
+msgid "Чтобы изменить отправьте одно видео"
+msgstr ""
+
+#: handlers/users/create/setting_media.py:280
+msgid "Чтобы изменить отправьте один документ"
+msgstr ""
+
+#: handlers/users/create/setting_media.py:286
+msgid "Чтобы изменить отправьте одно аудио"
+msgstr ""
+
+#: handlers/users/create/setting_media.py:296
+msgid "Редактирование этого поста не поддерживается"
+msgstr ""
+
+#: handlers/users/create/setting_media.py:583
+msgid ""
+"➕ <b>ДОБАВИТЬ МЕДИА</b>\n"
+"\n"
+msgstr ""
+"➕ <b>MEDIA QO'SHISH</b>\n"
+"\n"
+
+#: handlers/users/create/setting_media.py:600
+#: handlers/users/create/setting_media.py:654
+msgid "❌ Нельзя добавлять несколько медиа к посту , где имеются URL кнопки"
+msgstr ""
+
+#: handlers/users/create/setting_media.py:610
+msgid ""
+"Вы можете отправлять фотографии, видео, аудиозаписи и документы.\n"
+"\n"
+"Однако вы не можете комбинировать разные типы файлов в одном сообщении, "
+"за исключением фото и видео."
+msgstr ""
+"Siz fotosuratlar, videolar, audio yozuvlar va hujjatlarni yuborishingiz "
+"mumkin.\n"
+"\n"
+"Biroq, siz har xil turdagi fayllarni bitta xabarda birlashtira olmaysiz, "
+"fotosuratlar va videolardan tashqari."
+
+#: handlers/users/create/setting_media.py:614
+#: handlers/users/create/setting_media.py:809
+msgid "Вы можете отправлять фотографии и видео"
+msgstr "Siz fotosuratlar va videolarni yuborishingiz mumkin"
+
+#: handlers/users/create/setting_media.py:616
+#: handlers/users/create/setting_media.py:811
+msgid "Вы можете отправлять аудиозаписи"
+msgstr "Siz audio yozuvlarni yuborishingiz mumkin"
+
+#: handlers/users/create/setting_media.py:618
+#: handlers/users/create/setting_media.py:813
+msgid "Вы можете отправлять документы"
+msgstr "Siz hujjatlarni yuborishingiz mumkin"
+
+#: handlers/users/create/setting_media.py:683
+#: handlers/users/create/setting_media.py:764
+msgid "Отправляйте файлы одного формата"
+msgstr "Bir xil formatdagi fayllarni yuboring"
+
+#: handlers/users/create/setting_media.py:705
+#: handlers/users/create/setting_media.py:788
+msgid "Вы отправили слишком много медиа файлов"
+msgstr "Siz juda ko'p media fayllarni yubordingiz"
+
+#: handlers/users/create/setting_media.py:806
+msgid ""
+"🖼 <b>ЗАМЕНИТЬ МЕДИА</b>\n"
+"\n"
+msgstr ""
+"🖼 <b>MEDIANI ALMASHTIRISH</b>\n"
+"\n"
+
+#: handlers/users/create/setting_media.py:902
+msgid ""
+"🔄 <b>ПОМЕНЯТЬ МЕСТАМИ</b>\n"
+"\n"
+"Выберите номер медиа которое хотите поменять местами:"
+msgstr ""
+"🔄 <b>JOYLARNI ALMASHTIRISH</b>\n"
+"\n"
+"O'zgartirmoqchi bo'lgan media raqamini tanlang:"
+
+#~ msgid ""
+#~ "Вы можете отправлять фотографии, видео, аудиозаписи и документы.\n"
+#~ "\n"
+#~ "Однако вы не можете комбинировать разные"
+#~ " типы файлов в одном сообщении, за"
+#~ " исключением фото и видео. "
+#~ msgstr ""
+

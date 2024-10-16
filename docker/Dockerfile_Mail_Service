@@ -1,0 +1,13 @@
+FROM python:3.10
+
+RUN mkdir /harvester_bot
+WORKDIR /harvester_bot
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY mail_service /harvester_bot/mail_service
+
+RUN chmod a+x /harvester_bot/mail_service/app.sh
+
+CMD /harvester_bot/mail_service/app.sh

@@ -1,0 +1,15 @@
+FROM python:3.10
+
+RUN mkdir /harvester_bot
+WORKDIR /harvester_bot
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY api_service /harvester_bot/api_service
+
+RUN apt-get update && apt-get install -y postgresql-client
+
+RUN chmod a+x /harvester_bot/api_service/app.sh
+
+CMD /harvester_bot/api_service/app.sh

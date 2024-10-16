@@ -1,0 +1,1 @@
+uvicorn openai_service.main:app --port 7070 --host 0.0.0.0
